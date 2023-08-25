@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 16px;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'header header '
+    'nav content '
+    'nav footer ';
+    grid-template-columns: 1fr 5fr ;
+    grid-template-rows: 80px 1fr ;
+}
+header,
+footer,
+main,
+aside,
+nav {
+  padding: 20px;
+  border: rgb(1, 11, 102) 1px solid;
+}
+
+header {
+  
+  grid-area: header;
+  background-color: rgb(105, 105, 182);
+  border: rgb(248, 252, 248) 2px solid;
+ text-align: center;
+  color: white;
+  font-size: larger;
+  background-image: url(navbackground.webp);
+}
+
+nav {
+  grid-area: nav;
+  width: 180px;
+
+}
+
+main {
+  grid-area: content;
+  background-color:lavender;
+  color: rgb(0, 0, 0);
+  background-image: url(background.jpeg);
+}
+
+
+
+footer {
+  grid-area: footer;
+  background-image: url(background2.jpeg);
+}
+
+#WORKOUTPLAN{
+    color:rgb(18, 2, 48);
+    margin: 20px;
+}
+
+#img1{
+  padding: 10px;
+  border-radius: 50px;
+  border: solid rgb(240, 243, 241) 3px;
+  margin: 20px;
+}
+#img2{
+  padding: 10px;
+  border-radius: 50px;
+  border: solid rgb(247, 250, 248) 3px;
+  margin: 20px;
+
+}
+#logo{
+  float: left;
+  width: 60px;
+  height: 50px;
+  border: solid rgb(8, 1, 1) 2px ;
+  border-radius: 10px;
+ 
+}
+#balanceimage{
+
+float: left;
+width: 400px;
+height: 280px;
+margin: 20px;
+border: solid white 3px;
+border-radius: 50px;
+}
+
+#vegprotein{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 20px;
+ padding: 10px;
+  border: solid lightcoral 2px;
+}
+
+#nonvegprotein{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 20px;
+ padding: 10px;
+  border: solid lightcoral 2px;
+  
+}
+
+#aboutus{
+  float: right;
+  width: 200px;
+  height: 300px;
+  border: solid rgb(255, 255, 255) 2px;
+  border: 30px;
+  padding: 10px;
+
+}
+
+@media(max-width:500px){
+  .main{
+    grid-template-columns: 1fr;
+    
+  }
+}
+
