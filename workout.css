@@ -1,0 +1,129 @@
+#mainheadingback{
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);                            
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid rgb(14, 63, 224) 2px;
+    padding: 10px;
+}
+#exerciseboxback{
+    padding: 40px;
+    margin: 20px;
+    border: black solid 2px;
+    background-color: rgb(244, 231, 255);
+}
+
+#mainheadinglegs{
+    text-align: center;
+    background-color: rgb(165, 0, 0);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid rgb(107, 0, 0) 2px;
+    padding: 10px;
+}
+#exerciseboxlegs{
+    padding: 40px;
+    margin: 20px;
+    border: black solid 2px;
+    background-color: rgb(255, 191, 191);
+}
+
+#mainheadingchest{
+    text-align: center;
+    background-color: rgb(201, 0, 151);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid rgb(131, 4, 52) 2px;
+    padding: 10px;
+}
+#exerciseboxchest{
+    padding: 40px;
+    margin: 20px;
+    border: rgb(250, 195, 255) solid 2px;
+    background-color: rgb(244, 231, 255);
+}
+
+#mainheadingforearms{
+    text-align: center;
+    background-color: rgb(7, 83, 0);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid rgb(5, 102, 9) 2px;
+    padding: 10px;
+}
+#exerciseboxforearms{
+    padding: 40px;
+    margin: 20px;
+    border: rgb(15, 133, 0) solid 2px;
+    background-color: rgb(192, 255, 179);
+}
+
+#mainheadingshoulder{
+    text-align: center;
+    background-color: rgb(182, 88, 0);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid rgb(78, 0, 30) 2px;
+    padding: 10px;
+}
+#exerciseboxshoulder{
+    padding: 40px;
+    margin: 20px;
+    border: rgb(245, 0, 0) solid 2px;
+    background-color: rgb(255, 199, 161);
+}
+
+#mainheadingtriceps{
+    text-align: center;
+    background-color: rgb(201, 0, 151);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid rgb(131, 4, 52) 2px;
+    padding: 10px;
+}
+#exerciseboxtriceps{
+    padding: 40px;
+    margin: 20px;
+    border: rgb(70, 0, 77) solid 2px;
+    background-color: rgb(204, 192, 255);
+}
+
+
+#mainheadingbiceps{
+    text-align: center;
+    background-color: rgb(0, 126, 105);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid rgb(1, 51, 63) 2px;
+    padding: 10px;
+}
+#exerciseboxbiceps{
+    padding: 40px;
+    margin: 20px;
+    border: rgb(0, 41, 58) solid 2px;
+    background-color: rgb(180, 225, 255);
+}
+
+#mainheadingabs{
+    text-align: center;
+    background-color: rgb(51, 8, 53);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid rgb(0, 0, 0) 2px;
+    padding: 10px;
+}
+#exerciseboxabs{
+    padding: 40px;
+    margin: 20px;
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: rgb(255, 194, 247);
+}
+

@@ -1,0 +1,53 @@
+#heading{
+    color: white;
+    background-color: rgb(255, 0, 119);
+    text-align: center;
+    
+
+}
+#beginnerbox{
+    border: solid rgb(9, 80, 0) 2px;
+    border-radius: 20px;
+    background-color: rgb(193, 255, 157);
+}
+
+#beginner{
+  margin: 30px;
+  color: rgb(8, 70, 0);
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#intermediatebox{
+    border: solid rgb(245, 241, 33) 2px;
+    border-radius: 20px;
+    background-color: rgb(245, 255, 199);
+}
+#intermediate{
+    margin: 30px;
+  color: rgb(104, 102, 0);
+  font-family: 'Times New Roman', Times, serif;
+}
+#advancebox{
+    border: solid rgb(110, 6, 6) 2px;
+    border-radius: 20px;
+    background-color: rgb(255, 197, 197);
+
+}
+#advance{
+    margin: 30px;
+  color: rgb(87, 2, 2);
+  font-family: 'Times New Roman', Times, serif;
+    
+}
+#dietimage{
+    width: 320px;
+    height: 220px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 60px;
+    border-radius: 70px;
+    padding: 10px;
+    border: solid rgb(255, 255, 255) 2px;
+
+}
