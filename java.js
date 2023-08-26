@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded",function(){
-alert("welcome to my website");
+alert("funfact : panipuri actually helps to loose weight");
 });
