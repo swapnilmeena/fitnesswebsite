@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded",function(){
-alert("welcome to my website";)
+alert("funfact : pani puri actually helps to loose fat";)
 });
