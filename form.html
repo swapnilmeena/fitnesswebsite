@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 15px;
+background-image : url(BACKGROUNDFORM.avif) ;
+color: aliceblue;
+        }
+        #paytm{
+            float left
+        }
+
+    </style>
+
+</head>
+<body>
+    <form method="post" name="google-sheet">
+        <fieldset>
+<legend style="color: aliceblue;" >PERSONAL DETAILS</legend>
+<br>
+<label for="name">FULL NAME</label>
+<input type="text" name="name" id="name" placeholder="enter your name">
+<br>
+<label for="contact">CONTACT.NO</label>
+<input type="text" name="contact" id="contact" placeholder="phone number">
+<br>
+<label for="email">EMAIL ID</label>
+<input type="email" name="email" id="email" placeholder="enter your email">
+<br>
+<label for="address">address</label>
+<input type="text" name="address" id="address" placeholder="enter your address">
+<br>
+<input type="submit" name="submit" id="submit">
+<span>
+<p>scan this QR code and pay 20rs to get your workout plans and diet plans on gmail
+</p></span>
+<span>
+<p style="margin-top: 10px;">note: this may take some time for processing and sending you link via gmail</p></span>
+<img id="paytm" src="upipayment.jpg" alt="paytm" width="120px" height="120px">
+<img style="margin-top: 10px;" src="paytm logo.png" alt="" width="60px" height="30px">
+</fieldset>
+
+    </form>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxB9bmYe4nPFQLl0zl1jFDVbPXoViTHvgpK8UQRW8HHhopRO7jdtKX5PiF7yIoQCJiD/exec'
+        const form = document.forms['google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("thanks for registration // we will send you link via gmail ,,,,this will take some time"))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
